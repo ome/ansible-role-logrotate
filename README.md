@@ -1,6 +1,9 @@
 Logrotate
 =========
 
+[![Build Status](https://travis-ci.org/ome/ansible-role-logrotate.svg)](https://travis-ci.org/ome/ansible-role-logrotate)
+[![Ansible Role](https://img.shields.io/ansible/role/41884.svg)](https://galaxy.ansible.com/ome/logrotate/)
+
 Customise log-rotation.
 
 
@@ -18,7 +21,7 @@ Example Playbook
 
     - hosts: localhost
       roles:
-      - role: logrotate
+      - role: ome.logrotate
         logrotate_backlog_size: 52
 
 
