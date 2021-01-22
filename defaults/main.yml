@@ -3,4 +3,4 @@
 
 logrotate_interval: weekly
 logrotate_backlog_size: 12
-logrotate_compress: True
+logrotate_compress: true
