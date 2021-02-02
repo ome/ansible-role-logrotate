@@ -13,3 +13,4 @@
     backup: true
     dest: /etc/logrotate.conf
     src: logrotate.conf.j2
+    mode: 0644
