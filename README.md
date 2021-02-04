@@ -1,7 +1,7 @@
 Logrotate
 =========
 
-[![Build Status](https://travis-ci.org/ome/ansible-role-logrotate.svg)](https://travis-ci.org/ome/ansible-role-logrotate)
+[![Actions Status](https://github.com/ome/ansible-role-logrotate/workflows/Molecule/badge.svg)](https://github.com/ome/ansible-role-logrotate/actions)
 [![Ansible Role](https://img.shields.io/ansible/role/41885.svg)](https://galaxy.ansible.com/ome/logrotate/)
 
 Customise log-rotation.
