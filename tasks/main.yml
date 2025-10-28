@@ -3,7 +3,7 @@
 
 - name: system packages | install logrotate
   become: true
-  ansible.builtin.yum:
+  ansible.builtin.dnf:
     pkg: logrotate
     state: present
 
