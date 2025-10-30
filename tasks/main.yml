@@ -3,13 +3,13 @@
 
 - name: system packages | install logrotate
   become: true
-  yum:
+  ansible.builtin.dnf:
     pkg: logrotate
     state: present
 
 - name: logrotate | configure main file
   become: true
-  template:
+  ansible.builtin.template:
     backup: true
     dest: /etc/logrotate.conf
     src: logrotate.conf.j2
